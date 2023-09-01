@@ -1,0 +1,20 @@
+<div class='task'>
+          <div class='task__tags'><span class='task__tag task__tag--copyright'>{{task[0]}}</span>
+            <button class='task__options dropbtn' id="myDropdown"><i class="fas fa-ellipsis-h"></i></button>
+            <div class="dropdown-content" id="dropdownContent">
+              <a href="/movetoready/{{task[4]}}">Move to TASK READY</a>
+              <a href="/movetoprog/{{task[4]}}">Move to IN PROGRESS</a>
+              <a href="/movetoreview/{{task[4]}}">Move to NEEDS REVIEW</a>
+              <a href="/movetodone/{{task[4]}}">Move to DONE</a>
+              <a href="/edittask/{{task[4]}}/{{username}}" class = 'edit-btn'>Edit Task</a>
+            </div>
+          </div>
+          <p>{{task[2]}}</p>
+            
+          <div class='task__stats'>
+            <span><i class="fas fa-flag"></i>{{task[1]}}</time></span>
+            <span>{{task[3]}}</span>
+            <span class='task__owner'></span>
+          </div>
+  
+</div>

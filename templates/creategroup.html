@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CREATE GROUP</title>
+    <style>
+      body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #7784ee;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input {
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #7784ee;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    cursor: pointer;
+  margin-top:5%;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: indigo;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>CREATE GROUP</h1>
+        <form action="/creategroup" method="POST">
+            <label for="group_name">GROUP NAME:</label>
+            <input type="text" id="group_name" name="group_name" required>
+
+            <button type="submit">CREATE GROUP</button>
+        </form>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TASK MANAGER</title>
+  <style>
+      body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #7784ee;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #7784ee;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    cursor: pointer;
+  margin-top:5%;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: indigo;
+}
+.centered-div {
+    display: grid;
+    place-items: center;
+    height: 65vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+    </style>
+</head>
+<body>
+    <div class="container centered-div">
+        <h1>TASK MANAGER</h1>
+            <button onclick="login()">Sign In</button>
+            <h2 style="text-align: center">or</h2>
+            <button onclick="signup()">Sign Up</button>
+    </div>
+</body>
+<script>
+  function login(){
+    window.location.href = "/login";
+  }
+  function signup(){
+    window.location.href = "/signup";
+  }
+</script>
+</html>
