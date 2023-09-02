@@ -1,6 +1,6 @@
 # TaskManager
 A task manager involving CRUD operations for different tasks.
-Made using replit.
+Made using replit. Login, Signup, Index pages can be styled more.
 <br>
 -> contains login and signup funcitonality with login verification using session.<br>
 -> The main taskboard have 4 columns representing status of the tasks.<br>
@@ -14,4 +14,4 @@ Made using replit.
 -> A person who is currently not in any group can either request to join a group or create a whole new group himself.<br>
 -> To join a group , you enter the group_id and the request is sent to the group taskboard which can then be accepted by any member to let the person join.<br>
 <br>
-Test the project at this link: https://replit.com/@simplysimpletri/TaskManager
+Test the project at this link: https://taskmanager--simplysimpletri.repl.co/
