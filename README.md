@@ -15,3 +15,22 @@ Made using replit. Login, Signup, Index pages can be styled more.
 -> To join a group , you enter the group_id and the request is sent to the group taskboard which can then be accepted by any member to let the person join.<br>
 <br>
 Test the project at this link: https://taskmanager--simplysimpletri.repl.co/
+
+![Screenshot of index page](https://github.com/Parth2k3/TaskManager/blob/main/Screenshot%20(18).png)
+<br>
+![Screenshot of index page](https://github.com/Parth2k3/TaskManager/blob/main/Screenshot%20(17).png)
+<br>
+![Screenshot of index page](https://github.com/Parth2k3/TaskManager/blob/main/Screenshot%20(19).png)
+<br>
+![Screenshot of index page](https://github.com/Parth2k3/TaskManager/blob/main/Screenshot%20(20).png)
+<br>
+![Screenshot of index page](https://github.com/Parth2k3/TaskManager/blob/main/Screenshot%20(21).png)
+<br>
+![Screenshot of index page](https://github.com/Parth2k3/TaskManager/blob/main/Screenshot%20(22).png)
+<br>
+![Screenshot of index page](https://github.com/Parth2k3/TaskManager/blob/main/Screenshot%20(23).png)
+<br>
+![Screenshot of index page](https://github.com/Parth2k3/TaskManager/blob/main/Screenshot%20(24).png)
+<br>
+![Screenshot of index page](https://github.com/Parth2k3/TaskManager/blob/main/Screenshot%20(25).png)
+<br>
